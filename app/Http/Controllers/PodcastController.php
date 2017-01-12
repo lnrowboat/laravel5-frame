@@ -41,5 +41,10 @@ class PodcastController extends Controller {
         $this->dispatch($job);
         return $user;
     }
+    
+    public function justtest()
+    {
+        return 'nothing';
+    }
 
 }

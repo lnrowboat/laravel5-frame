@@ -12,17 +12,18 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         '1d1b89d124cc9cb8219922c9d5569199' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'ddc0a4d7e61c0286f0f8593b1903e894' => __DIR__ . '/..' . '/clue/stream-filter/src/functions.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         '8cff32064859f4559445b89279f3199c' => __DIR__ . '/..' . '/php-http/message/src/filters.php',
-        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
+        '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
-        'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
-        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
+        '3a37ebac017bc098e9a86b35401e7a68' => __DIR__ . '/..' . '/mongodb/mongodb/src/functions.php',
+        '290dd4ba42f11019134caca05dbefe3f' => __DIR__ . '/..' . '/teamtnt/tntsearch/helper/helpers.php',
         '90dc6f051d52d4530c2c3a77301ca309' => __DIR__ . '/..' . '/mongofill/mongofill/src/functions.php',
     );
 
@@ -43,6 +44,15 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
+        ),
+        'V' => 
+        array (
+            'Vinkla\\Algolia\\' => 15,
+        ),
+        'T' => 
+        array (
+            'TeamTNT\\TNTSearch\\' => 18,
+            'TeamTNT\\Scout\\' => 14,
         ),
         'S' => 
         array (
@@ -90,6 +100,7 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
             'League\\Flysystem\\' => 17,
             'League\\Event\\' => 13,
             'Lcobucci\\JWT\\' => 13,
+            'Laravel\\Scout\\' => 14,
             'Laravel\\Passport\\' => 17,
         ),
         'J' => 
@@ -115,6 +126,7 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'GrahamCampbell\\Manager\\' => 23,
             'Github\\' => 7,
         ),
         'F' => 
@@ -127,6 +139,7 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
             'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
+            'DamianTW\\MySQLScout\\' => 20,
         ),
         'C' => 
         array (
@@ -137,6 +150,7 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         'A' => 
         array (
             'App\\' => 4,
+            'AlgoliaSearch\\Laravel\\' => 22,
         ),
     );
 
@@ -162,6 +176,18 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Vinkla\\Algolia\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vinkla/algolia/src',
+        ),
+        'TeamTNT\\TNTSearch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/teamtnt/tntsearch/src',
+        ),
+        'TeamTNT\\Scout\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/teamtnt/laravel-scout-tntsearch-driver/src',
         ),
         'Symfony\\Polyfill\\Util\\' => 
         array (
@@ -291,6 +317,10 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         array (
             0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
         ),
+        'Laravel\\Scout\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/scout/src',
+        ),
         'Laravel\\Passport\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/passport/src',
@@ -344,6 +374,10 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+        'GrahamCampbell\\Manager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/graham-campbell/manager/src',
+        ),
         'Github\\' => 
         array (
             0 => __DIR__ . '/..' . '/knplabs/github-api/lib/Github',
@@ -368,6 +402,10 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'DamianTW\\MySQLScout\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/damiantw/laravel-scout-mysql-driver/src',
+        ),
         'Clue\\StreamFilter\\' => 
         array (
             0 => __DIR__ . '/..' . '/clue/stream-filter/src',
@@ -383,6 +421,10 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+        ),
+        'AlgoliaSearch\\Laravel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/algolia/algoliasearch-laravel/src',
         ),
     );
 
@@ -438,11 +480,23 @@ class ComposerStaticInit7215a018062f49d55dc6553cacb2c517
                 0 => __DIR__ . '/..' . '/mtdowling/cron-expression/src',
             ),
         ),
+        'A' => 
+        array (
+            'AlgoliaSearch\\Tests' => 
+            array (
+                0 => __DIR__ . '/..' . '/algolia/algoliasearch-client-php/tests',
+            ),
+            'AlgoliaSearch' => 
+            array (
+                0 => __DIR__ . '/..' . '/algolia/algoliasearch-client-php/src',
+            ),
+        ),
     );
 
     public static $classMap = array (
         'CreateCacheTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_30_040317_create_cache_table.php',
         'CreateFailedJobsTable' => __DIR__ . '/../..' . '/database/migrations/2017_01_04_042241_create_failed_jobs_table.php',
+        'CreateItemsTable' => __DIR__ . '/../..' . '/database/migrations/2017_01_09_075055_create_items_table.php',
         'CreateJobsTable' => __DIR__ . '/../..' . '/database/migrations/2017_01_04_034045_create_jobs_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateSessionsTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_30_040351_create_sessions_table.php',

@@ -1,11 +1,12 @@
 <?php
 namespace App\Models\Mysql;
+
 use Illuminate\Database\Eloquent\Model;
 use Validator;
 
 class User extends Model
 {
-	protected $table = 'users';
+    protected $table = 'users';
     public $rules = array(
         'email' => 'required');
     public $attributes;
@@ -16,4 +17,15 @@ class User extends Model
     public function getAll(){
         $lists = $this->all();	
     }
+    
+/*    public function searchableAs()
+    {
+        return 'abc';
+       //$array = $this->toArray();
+
+        // Customize array...
+
+        //return $array;
+    }
+  */  
 }

@@ -162,6 +162,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Laravel\Scout\ScoutServiceProvider::class,
+        AlgoliaSearch\Laravel\AlgoliaServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -179,7 +181,9 @@ return [
         Jenssegers\Mongodb\MongodbServiceProvider::class,
         //Jenssegers\Agent\AgentServiceProvider::class,
 		App\Providers\AppMongoServiceProvider::class,
-		Laravel\Passport\PassportServiceProvider::class
+		Laravel\Passport\PassportServiceProvider::class ,
+        
+        //DamianTW\MySQLScout\Providers\MySQLScoutServiceProvider::class,
     ],
 
     /*
